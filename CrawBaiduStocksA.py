@@ -1,4 +1,8 @@
 #CrawBaiduStocksA.py
+#CrawBaiduStocksA.py
+#百度股票信息爬取
+#技能包：requests-bs4-re
+#对于非常有特征的数据，直接用re获取，有些数据位置固定，bs4定位到位置上，然后再通过正则表达式获取其中内容
 
 import requests
 from bs4 import BeautifulSoup
