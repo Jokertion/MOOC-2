@@ -29,7 +29,7 @@ def getStockList(lst,stockURL): #保存股票代码的列表
 	
 def getStockInfo(lst, stockURL, fpath): #获得个股信息
 	for stock in lst:
-		url = stockURL + stock + '.html'  #获得网站
+		url = stockURL + stock + '.html'  #获得网址
 		html = getHTMLText(url)    #获取页面内容
 		try:
 			if html == '':
